@@ -1,0 +1,159 @@
+
+
+#item_box{
+   margin-top: 2em;
+   background-color: white;
+   text-align: center;
+   display: grid;
+   grid-template-rows: 25% 75%;
+   grid-template-areas: 
+   "content"
+   "title";
+   grid-row-gap: 1px;
+   padding-bottom: 15rem;
+}
+
+#item_box #shop_intro{
+   padding-top: 1em;
+   grid-area: "title";
+   margin-bottom: 2em;
+}
+
+#item_box #shop_intro #title {
+   font-size: 2.5rem;
+   padding: 0px;
+   margin: 0px;
+}
+
+#item_box #shop_intro #description{
+   font-size: 0.8rem;
+}
+
+#item_box #products #main_products{
+   grid-area: "content";
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-column-gap: 5%;
+   margin-left: 3.5rem;
+}
+
+#item_box #products #main_products div{   
+   width: 75%;   
+}
+
+
+#item_box #products #main_products div h2{
+   font-size: 0.9rem;
+   background-color: black;
+   color: white;
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+}
+#item_box #products #main_products div .button_box{
+   margin-top: 100%;
+   background-color: black;
+   border-top-left-radius: 1rem;
+   border-top-right-radius: 1rem;
+   width: 100%;
+}
+
+#item_box #products #main_products div .button_box button {
+   background-color: rgba(240, 248, 255, 0);
+   border: 0px none black;
+   color: white;
+}
+
+#item_box #products #main_products div .button_box button p {
+   font-size: 0.7rem;
+   font-weight: 600;
+}
+
+
+
+#item_box #products #main_products div .button_box button:hover {
+
+   text-decoration: underline;
+   
+}
+
+@media (max-width:1000px){
+   #item_box #products #main_products{
+      grid-area: "content";
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-column-gap: 5%;
+      margin-left: 5rem;
+      grid-row-gap: 2em;
+   }
+}
+
+
+@media (max-width:600px){
+
+   #item_box #products #main_products{
+      grid-area: "content";
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      grid-column-gap: 5%;
+      margin-left: 5rem;
+      grid-row-gap: 2em;
+   }
+}
+
+@media (max-width:350px){
+   #item_box #products #main_products{
+      grid-area: "content";
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-column-gap: 5%;
+      margin-left: 5rem;
+      grid-row-gap: 2em;
+   }
+}
+
+@media (max-width:300px){
+   #item_box #products #main_products{
+      grid-area: "content";
+      display: grid;
+      grid-template-columns: 1fr ;
+      grid-column-gap: 5%;
+      margin-left:20%;
+      grid-row-gap: 2em;
+   }
+
+   #item_box #shop_intro {
+      padding-left: 2em;
+      padding-right: 2em;
+   }
+}
+
+
+#item_box #products #main_products #category_1{
+   background-image: url("../images/casual_caps/blue_cap.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+#item_box #products #main_products #category_2{
+   background-image: url("../images/casual_tops/white_tshirt.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+#item_box #products #main_products #category_3{
+   background-image: url("../images/casual_trousers/blue_jeans.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+#item_box #products #main_products #category_4{
+   background-image: url("../images/casual_shoes/yellow_shoes.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+#item_box #products #main_products #category_5{
+   background-image: url("../images/casual_bags/blue_bag.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+}

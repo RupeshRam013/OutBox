@@ -1,0 +1,80 @@
+body{
+
+   background-image: url("../images/aesthetics/fish_wall.jpg");
+   background-repeat: no-repeat;
+   background-size: 100%;
+
+}
+
+#heading{
+   margin-left: 22%;
+   margin-top: 2em;
+   width: 45%;
+   background-color: rgba(255, 255, 255, 0.705);
+   text-align: center;
+   padding: 5%;
+   padding-top: 0.1em;
+   border-bottom:solid 1em white;
+   border-top-left-radius: 1em;
+   border-top-right-radius: 1em;
+}
+
+#heading #title{
+   font-size: 2rem;
+
+}
+
+#heading #description{
+   font-size: 0.9rem;
+}
+
+
+@media (min-width:900px){
+
+   #heading {
+      padding-left: 5%;
+      padding-right: 5%;
+      width: 25%;
+      margin-left: 32%;
+   }
+}
+
+@media (min-width :320px) and ( max-width:600px){
+   
+   body{
+      background-image: url("../images/aesthetics/red_metal_bike.jpg");
+      background-repeat: no-repeat;
+   }
+
+  
+}
+
+@media (max-width:320px){
+   body{
+      background-image: url("../images/aesthetics/forest.jpg");
+      background-repeat: no-repeat;
+   }
+
+   #heading #title{
+      font-size: 1.5rem;
+   }
+
+   #heading #description{
+      font-size: 0.65rem;
+   }
+}
+
+@media (max-width:250px){
+
+   #heading{
+      height: 10em;
+      display: none;
+   }
+
+   #heading #title{
+      font-size: 0.5em;
+   }
+   #heading #description{
+      font-size: 0.4em;
+   }
+}
