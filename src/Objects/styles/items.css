@@ -1,8 +1,8 @@
 
 
 #item_box{
-   margin-top: 2em;
-   background-color: white;
+   margin-top: 0px;
+   background-color: rgb(255, 255, 255);
    text-align: center;
    display: grid;
    grid-template-rows: 25% 75%;
@@ -10,11 +10,12 @@
    "content"
    "title";
    grid-row-gap: 1px;
-   padding-bottom: 15rem;
+   padding-bottom: 8rem;
+   border: 0px none black;
 }
 
 #item_box #shop_intro{
-   padding-top: 1em;
+
    grid-area: "title";
    margin-bottom: 2em;
 }
@@ -34,7 +35,7 @@
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    grid-column-gap: 5%;
-   margin-left: 3.5rem;
+   margin-left: 3rem;
 }
 
 #item_box #products #main_products div{   
@@ -73,6 +74,7 @@
 #item_box #products #main_products div .button_box button:hover {
 
    text-decoration: underline;
+   cursor: pointer;
    
 }
 
@@ -82,7 +84,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-column-gap: 5%;
-      margin-left: 5rem;
+      margin-left: 3rem;
       grid-row-gap: 2em;
    }
 }
@@ -95,7 +97,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr ;
       grid-column-gap: 5%;
-      margin-left: 5rem;
+      margin-left: 3.5rem;
       grid-row-gap: 2em;
    }
 }
@@ -106,7 +108,7 @@
       display: grid;
       grid-template-columns: 1fr ;
       grid-column-gap: 5%;
-      margin-left: 5rem;
+      margin-left: 4rem;
       grid-row-gap: 2em;
    }
 }

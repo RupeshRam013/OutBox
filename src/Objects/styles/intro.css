@@ -2,8 +2,8 @@ body{
 
    background-image: url("../images/aesthetics/fish_wall.jpg");
    background-repeat: no-repeat;
-   background-size: 100%;
-
+   background-size: 110%;
+   
 }
 
 #heading{
@@ -17,15 +17,16 @@ body{
    border-bottom:solid 1em white;
    border-top-left-radius: 1em;
    border-top-right-radius: 1em;
+   margin-bottom: 2em;
 }
 
 #heading #title{
-   font-size: 2rem;
+   font-size: 1em;
 
 }
 
 #heading #description{
-   font-size: 0.9rem;
+   font-size: 0.5em;
 }
 
 

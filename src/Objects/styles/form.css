@@ -1,0 +1,263 @@
+
+
+#form_outbox{
+    background-image: url("../images/aesthetics/metal_bike.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 35em;
+    padding-top: 0.1em;
+    font-family: monospace;
+    display: flex;
+}
+
+
+#form_box {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: 35vw;
+    margin-right: 2em;
+    margin-top: 2em;
+    background-color: rgba(255, 255, 255, 0.229);
+    padding: 0.5em;
+    border-radius: 0.4em;
+    height: 45%;
+}
+
+#form_box label{
+    order: -1;
+    position: absolute;
+    cursor: pointer;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+    padding-bottom: 0.2em;
+    font-size: 0.85em;
+
+    border: white 1px solid;
+    border-bottom: none;
+
+}
+
+#form_box input[type="radio"]{
+    position: absolute;
+    filter: blur(20em);
+}
+
+#form_box #label1{
+
+    position: relative;
+    width: 3em;
+    margin-left: 6em;
+    text-align: center;
+
+
+
+}
+
+
+#form_box input[type="radio"]:checked + label {
+
+    background-color: rgba(255, 255, 255, 0.761);
+    color: black;
+}
+
+#form_box .content{
+    display: none;
+    order: 2;
+}
+
+#form_box input[type="radio"]:checked + label + .content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255);
+}
+
+/* The form specific css */
+
+.content {
+    padding: 0.5em;
+    background-color: white;
+    text-align: center;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    height: 100%;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    vh
+
+.content h1{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0.5em;
+    margin-bottom: 0.2em;
+}
+
+.content a{
+    font-size: 0.5em;
+    text-decoration: none;
+    color: black;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content input{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 1px rgb(91, 91, 91) solid;
+    width: 15em;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    outline: none;
+    text-indent: 0.4em;
+}
+
+
+.content button {
+    background-color: black;
+    color: white;
+    width: 10em;
+    border: 0px ;
+    padding: 0.5em;
+    padding-top: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    border-radius: 0.2em;
+}
+
+
+.content button:hover {
+    border: 1px solid black ;
+    background-color: rgba(240, 248, 255, 0);
+    color: black;
+    cursor: pointer;
+
+}
+
+
+#importance_box{
+    order: 0;
+    margin-left: 5em;
+    margin-top: 12em;
+    font-size: 0.5em;
+    width: 30em;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.613);
+    padding: 1em;
+    border-radius: 0.5em;
+    color: rgb(0, 0, 0);
+    height: 40%;
+
+}
+
+#importance_box div{
+    background-color: white;
+    padding: 1em;
+    border-radius: 1em;
+    height: 100%;
+}
+
+#importance_box p{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+}
+
+#importance_box ul{
+    margin-left: 0px;
+    padding-left: 0px;
+    text-indent: 0.3em;
+    margin-left: 1.5em;
+    text-align: left;
+    font-size: 1em;
+    margin-top: 3em;
+}
+
+#importance_box ul li{
+    margin-top: 1em;
+}
+
+@media (min-width:1200px){
+
+    #importance_box{
+        margin-top: 25em;
+    }
+}
+
+
+@media (max-width:824px){
+    
+    #form_outbox{
+        background-image: url("../images/aesthetics/forest.jpg");
+    }
+
+    #form_outbox{
+        flex-direction: column;
+    }
+
+    #importance_box {
+        order: 2;
+        margin-top: 5em;
+        font-size: 0.5em;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #importance_box h1{
+        font-size: 1.5em;
+    }
+
+    #importance_box p{
+        font-size: 0.9em;
+    }
+
+    #importance_box ul{
+        font-size: 0.8em;
+    }
+
+    #form_box{
+        margin-right: auto;
+        width: 15em;
+    }
+}
+
+@media (max-width:630px){
+    
+}
+
+@media (max-width:560px){
+    #importance_box {
+        height: 25%;
+    }
+
+    #form_box {
+        margin-top: 25vw;
+    }
+}
+
+@media (max-width:430px){
+    #form_box {
+        width: 75vw;
+        margin-top: 15vw;
+    }
+
+    #form_box label {
+        font-size: 0.6em;
+    }
+
+    .content h1{
+        font-size: 1.5em;
+    }
+
+    .content input {
+        width: 13em;
+    }
+}
