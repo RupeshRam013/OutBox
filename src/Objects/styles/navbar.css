@@ -2,7 +2,7 @@
 
 #navigation {
    background-color: rgb(249, 249, 249);
-   border-bottom: 1px solid black;
+   border-bottom: 1px solid rgb(0, 0, 0);
    background-image: url("../images/icons/website_icon.png");
    background-repeat: no-repeat;
    background-size: 3em;
@@ -27,15 +27,13 @@
    background-color: rgba(1, 1, 1, 0);
    border: 0px none black;
    margin-top: 1em;
-   border-bottom: 2px solid rgb(63, 63, 63);
+   border-bottom: 1px solid rgba(0, 0, 0, 0.492);
    padding: 0.6em;
-   padding-bottom: 0px;
-   border-top-left-radius: 1em;
-   border-top-right-radius: 1em;
+   padding-bottom: 0.2em;
 }
 
 #navigation button:hover{
-   background-color: rgba(0, 0, 0, 0.119);
+   border-bottom: 2px solid black;
    cursor: pointer;
 }
 
