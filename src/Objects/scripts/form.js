@@ -23,7 +23,7 @@ export default function Form(){
 
                 </div>
                 <div id="form_box"> 
-                    <input type="radio" className="checkbox" name="tabs" id="tab2"></input>
+                    <input type="radio" className="checkbox" name="tabs" id="tab2" checked ></input>
                     <label for="tab2" className="main_label" id="label1">JoinUs</label>
                     <div id="content2" className="content" >
                         <h1>JoinUs</h1>
@@ -36,7 +36,7 @@ export default function Form(){
                         <button>Register</button>
                     </div>
                     
-                    <input type="radio" className="checkbox" checked name="tabs" id="tab1"></input>
+                    <input type="radio" className="checkbox" name="tabs" id="tab1"></input>
                     <label for="tab1" className="main_label" id="label2">Login</label>
                     
                     <div id="content1" className="content">
